@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 msg = MIMEMultipart()
 msg['From'] = From
 msg['To'] = Recipients
-msg['Subject'] = 'There is New Announcement From EPIAS'
+msg['Subject'] = 'There is New Announcement'
 message = 'here is the email'
 msg.attach(MIMEText(message))
 
